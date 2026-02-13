@@ -246,8 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
     yearElement.textContent = new Date().getFullYear();
   }
 });
-
-// ===== DATA ANGGOTA PKS - FIXED =====
+    // ===== DATA ANGGOTA PKS - PATH FOTO DISATUIN =====
 const anggotaData = [
     // Anggota Purna (Senior)
     {
@@ -257,7 +256,7 @@ const anggotaData = [
         divisi: "Komandan",
         tingkatan: "purna",
         kelas: "XII AKL 1",
-        foto: "images/anggota/senior/1.jpg",
+        foto: "images/1.jpg",
         motto: "Disiplin pangkal kesuksesan",
         whatsapp: "081234567890"
     },
@@ -268,7 +267,7 @@ const anggotaData = [
         divisi: "Wakil Komandan",
         tingkatan: "purna",
         kelas: "XII AKL 2",
-        foto: "images/anggota/senior/2.jpg",
+        foto: "images/2.jpg",
         motto: "Pantang menyerah",
         whatsapp: "081234567891"
     },
@@ -279,7 +278,7 @@ const anggotaData = [
         divisi: "P3K",
         tingkatan: "purna",
         kelas: "XII TKJ 2",
-        foto: "images/anggota/senior/3.jpg",
+        foto: "images/3.jpg",
         motto: "Sehat dan bersih",
         whatsapp: "081234567892"
     },
@@ -290,7 +289,7 @@ const anggotaData = [
         divisi: "Penertib",
         tingkatan: "purna",
         kelas: "XII MPLB 2",
-        foto: "images/anggota/senior/4.jpg",
+        foto: "images/4.jpg",
         motto: "Disiplin waktu",
         whatsapp: "081234567892"
     },
@@ -301,7 +300,7 @@ const anggotaData = [
         divisi: "Operator",
         tingkatan: "purna",
         kelas: "XII MPLB 2",
-        foto: "images/anggota/senior/5.jpg",
+        foto: "images/5.jpg",
         motto: "Gagal bukan akhir",
         whatsapp: "081234567892"
     },
@@ -312,7 +311,7 @@ const anggotaData = [
         divisi: "Penindak",
         tingkatan: "purna",
         kelas: "XII TITL 2",
-        foto: "images/anggota/senior/6.jpg",
+        foto: "images/6.jpg",
         motto: "Fokus tujuan",
         whatsapp: "081234567892"
     },
@@ -325,7 +324,7 @@ const anggotaData = [
         divisi: "Komandan (saat ini)",
         tingkatan: "senior",
         kelas: "XI TKJ 2",
-        foto: "images/anggota/anggota biasa/7.jpg",
+        foto: "images/7.jpg",
         motto: "Konsisten dalam tindakan",
         whatsapp: "081234567893"
     },
@@ -336,7 +335,7 @@ const anggotaData = [
         divisi: "Wakil Komandan (saat ini)",
         tingkatan: "senior",
         kelas: "XI MPLB 1",
-        foto: "images/anggota/anggota biasa/8.jpg",
+        foto: "images/8.jpg",
         motto: "Hormat dan patuh",
         whatsapp: "081234567894"
     },
@@ -347,7 +346,7 @@ const anggotaData = [
         divisi: "Sekretaris",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/9.jpg",
+        foto: "images/9.jpg",
         motto: "Rapi dan teratur",
         whatsapp: "081234567895"
     },
@@ -358,7 +357,7 @@ const anggotaData = [
         divisi: "Bendahara",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/10.jpg",
+        foto: "images/10.jpg",
         motto: "Berani berubah",
         whatsapp: "081234567895"
     },
@@ -369,7 +368,7 @@ const anggotaData = [
         divisi: "Administrasi",
         tingkatan: "senior",
         kelas: "XI TKJ 3",
-        foto: "images/anggota/anggota biasa/11.jpg",
+        foto: "images/11.jpg",
         motto: "Terus maju tanpa ragu",
         whatsapp: "081234567895"
     },
@@ -380,7 +379,7 @@ const anggotaData = [
         divisi: "Humas & P3k", 
         tingkatan: "senior", 
         kelas: "XI TITL 2", 
-        foto: "images/anggota/anggota biasa/12.jpg", 
+        foto: "images/12.jpg", 
         motto: "Usaha tidak menghianati hasil", 
         whatsapp: "082231933025"
     }, 
@@ -391,7 +390,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "senior",
         kelas: "XI TKJ 3",
-        foto: "images/anggota/anggota biasa/13.jpg",
+        foto: "images/13.jpg",
         motto: "Disiplin kunci keberhasilan", 
         whatsapp: "081234567895"
     },
@@ -402,7 +401,7 @@ const anggotaData = [
         divisi: "Administrasi",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/14.jpg",
+        foto: "images/14.jpg",
         motto: "Siap mengabdi",
         whatsapp: "081234567898"
     }, 
@@ -413,7 +412,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/15.jpg",
+        foto: "images/15.jpg",
         motto: "Kerja keras, hasil cerdas",
         whatsapp: "081234567898"
     },
@@ -424,7 +423,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
         kelas: "XI Ak 2",
-        foto: "images/anggota/anggota biasa/16.jpg",
+        foto: "images/16.jpg",
         motto: "Jangan takut mencoba",
         whatsapp: "081234567898"
     }, 
@@ -435,7 +434,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "senior",
         kelas: "XI Ak 2",
-        foto: "images/anggota/anggota biasa/17.jpg",
+        foto: "images/17.jpg",
         motto: "Sukses butuh proses",
         whatsapp: "081234567898"
     },
@@ -446,7 +445,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
         kelas: "XI TKJ 1",
-        foto: "images/anggota/anggota biasa/18.jpg",
+        foto: "images/18.jpg",
         motto: "Tetap rendah hati",
         whatsapp: "081234567898"
     },
@@ -457,7 +456,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
         kelas: "XI Ak 2",
-        foto: "images/anggota/anggota biasa/19.jpg",
+        foto: "images/19.jpg",
         motto: "Mimpi besar, mulai kecil",
         whatsapp: "081234567898"
     },
@@ -468,7 +467,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/20.jpg",
+        foto: "images/20.jpg",
         motto: "Konsisten lebih penting",
         whatsapp: "081234567898"
     },
@@ -479,7 +478,7 @@ const anggotaData = [
         divisi: "Administrasi",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/21.jpg",
+        foto: "images/21.jpg",
         motto: "Waktu adalah kesempatan",
         whatsapp: "081234567898"
     },
@@ -490,7 +489,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/22.jpg",
+        foto: "images/22.jpg",
         motto: "Tekun membawa hasil",
         whatsapp: "081234567898"
     },
@@ -501,7 +500,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/23.jpg",
+        foto: "images/23.jpg",
         motto: "Yakin pasti bisa",
         whatsapp: "081234567898"
     },
@@ -512,7 +511,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
         kelas: "XI TKJ 2",
-        foto: "images/anggota/anggota biasa/24.jpg",
+        foto: "images/24.jpg",
         motto: "Jadilah Inspirasi",
         whatsapp: "081234567898"
     },
@@ -523,7 +522,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "senior",
         kelas: "XI IPA 2",
-        foto: "images/anggota/anggota biasa/25.jpg",
+        foto: "images/25.jpg",
         motto: "Usaha lebih, hasil lebih",
         whatsapp: "081234567898"
     },
@@ -534,7 +533,7 @@ const anggotaData = [
         divisi: "Administrasi",
         tingkatan: "senior",
         kelas: "XI MPLB 2",
-        foto: "images/anggota/anggota biasa/26.jpg",
+        foto: "images/26.jpg",
         motto: "Berkembang setiap hari",
         whatsapp: "081234567898"
     },
@@ -547,7 +546,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "muda",
         kelas: "X MPLB 1",
-        foto: "images/anggota/pks muda/27.jpg",
+        foto: "images/27.jpg",
         motto: "Tetap Semangat",
         whatsapp: "081234567896"
     },
@@ -558,7 +557,7 @@ const anggotaData = [
         divisi: "Administrasi",
         tingkatan: "muda",
         kelas: "X AK 1",
-        foto: "images/anggota/pks muda/28.jpg",
+        foto: "images/28.jpg",
         motto: "Semangat berlatih",
         whatsapp: "081234567897"
     },
@@ -569,7 +568,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
         kelas: "X AK 2",
-        foto: "images/anggota/pks muda/29.jpg",
+        foto: "images/29.jpg",
         motto: "Belajar tanpa batas",
         whatsapp: "081234567898"
     },
@@ -580,7 +579,7 @@ const anggotaData = [
         divisi: "Humas & P3k", 
         tingkatan: "muda", 
         kelas: "X MPLB 1", 
-        foto: "images/anggota/pks muda/30.jpg", 
+        foto: "images/30.jpg", 
         motto: "Hargai proses", 
         whatsapp: "082121933024"
     }, 
@@ -591,7 +590,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "muda",
         kelas: "X AK 1",
-        foto: "images/anggota/pks muda/31.jpg",
+        foto: "images/31.jpg",
         motto: "Bergerak atau tertinggal", 
         whatsapp: "082121933024"
     }, 
@@ -602,7 +601,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
         kelas: "X AK 2",
-        foto: "images/anggota/pks muda/32.jpg",
+        foto: "images/32.jpg",
         motto: "Jangan menunda mimpi",
         whatsapp: "081234567898"
     },
@@ -613,7 +612,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
         kelas: "X TITL 2",
-        foto: "images/anggota/pks muda/33.jpg",
+        foto: "images/33.jpg",
         motto: "Sabar itu kuat",
         whatsapp: "081234567898"
     },
@@ -624,7 +623,7 @@ const anggotaData = [
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
         kelas: "X TITL 2",
-        foto: "images/anggota/pks muda/34.jpg",
+        foto: "images/34.jpg",
         motto: "Tindakan lebih penting",
         whatsapp: "081234567898"
     },
@@ -635,7 +634,7 @@ const anggotaData = [
         divisi: "Administrasi",
         tingkatan: "muda",
         kelas: "X AK 2",
-        foto: "images/anggota/pks muda/35.jpg",
+        foto: "images/35.jpg",
         motto: "Berpikir positif",
         whatsapp: "081234567898"
     },
@@ -646,7 +645,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "muda",
         kelas: "X TKJ 2",
-        foto: "images/anggota/pks muda/36.jpg",
+        foto: "images/36.jpg",
         motto: "Percaya pada proses",
         whatsapp: "081234567898"
     },
@@ -657,7 +656,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "muda",
         kelas: "X AK 2",
-        foto: "images/anggota/pks muda/37.jpg",
+        foto: "images/37.jpg",
         motto: "Buktikan dengan hasil",
         whatsapp: "081234567898"
     },
@@ -668,7 +667,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "muda",
         kelas: "X AK 2",
-        foto: "images/anggota/pks muda/38.jpg",
+        foto: "images/38.jpg",
         motto: "Maju selangkah setiap hari",
         whatsapp: "081234567898"
     }, 
@@ -679,7 +678,7 @@ const anggotaData = [
         divisi: "Humas & P3k",
         tingkatan: "muda",
         kelas: "X AK 2",
-        foto: "images/anggota/pks muda/39.jpg",
+        foto: "images/39.jpg",
         motto: "Belajar dari kesalahan",
         whatsapp: "081234567898"
     },
@@ -692,7 +691,7 @@ const anggotaData = [
         divisi: "Alumni",
         tingkatan: "alumni",
         kelas: "Alumni 2023",
-        foto: "images/anggota/alumni/40.jpg",
+        foto: "images/40.jpg",
         motto: "PKS membentuk karakter",
         whatsapp: "081234567899"
     }, 
@@ -703,7 +702,7 @@ const anggotaData = [
         divisi: "Alumni",
         tingkatan: "alumni",
         kelas: "Alumni 2023",
-        foto: "images/anggota/alumni/41.jpg",
+        foto: "images/41.jpg",
         motto: "Sekali PKS tetap PKS",
         whatsapp: "081234567899"
     },
@@ -714,7 +713,7 @@ const anggotaData = [
         divisi: "Alumni",
         tingkatan: "alumni",
         kelas: "Alumni 2023",
-        foto: "images/anggota/alumni/42.jpg",
+        foto: "images/42.jpg",
         motto: "Disiplin selamanya",
         whatsapp: "081234567899"
     },
@@ -725,7 +724,7 @@ const anggotaData = [
         divisi: "Alumni",
         tingkatan: "alumni",
         kelas: "Alumni 2023",
-        foto: "images/anggota/alumni/43.jpg",
+        foto: "images/43.jpg",
         motto: "Tertib adalah prinsip",
         whatsapp: "081234567899"
     },
@@ -736,7 +735,7 @@ const anggotaData = [
         divisi: "Alumni",
         tingkatan: "alumni",
         kelas: "Alumni 2023",
-        foto: "images/anggota/alumni/44.jpg",
+        foto: "images/44.jpg",
         motto: "Tumbuh dalam disiplin",
         whatsapp: "081234567899"
     },
@@ -747,7 +746,7 @@ const anggotaData = [
         divisi: "Alumni",
         tingkatan: "alumni",
         kelas: "Alumni 2023",
-        foto: "images/anggota/alumni/45.jpg",
+        foto: "images/45.jpg",
         motto: "Pernah berdiri untuk aturan",
         whatsapp: "081234567899"
     }
@@ -1003,7 +1002,7 @@ const galeriData = [
         judul: "Latihan PBB Dasar",
         deskripsi: "Anggota muda belajar sikap sempurna",
         tanggal: "15 Jan 2023",
-        foto: "images/latihan/lat1.jpg",
+        foto: "images/lat1.jpg",
         likes: 24,
         views: 156
     },
@@ -1013,7 +1012,7 @@ const galeriData = [
         judul: "Formasi Upacara",
         deskripsi: "Persiapan upacara bendera hari Senin",
         tanggal: "22 Jan 2023",
-        foto: "images/latihan/lat2.jpg",
+        foto: "images/lat2.jpg",
         likes: 31,
         views: 189
     },
@@ -1023,7 +1022,7 @@ const galeriData = [
         judul: "Latihan Fisik",
         deskripsi: "Senam pagi untuk kebugaran anggota",
         tanggal: "29 Jan 2023",
-        foto: "images/latihan/lat3.jpg",
+        foto: "images/lat3.jpg",
         likes: 19,
         views: 142
     },
@@ -1033,7 +1032,7 @@ const galeriData = [
         judul: "Pelatihan Baris-berbaris",
         deskripsi: "Instruktur memberikan pengarahan",
         tanggal: "5 Feb 2023",
-        foto: "images/latihan/lat4.jpg",
+        foto: "images/lat4.jpg",
         likes: 42,
         views: 203
     },
@@ -1045,7 +1044,7 @@ const galeriData = [
         judul: "Rutinitas Apel",
         deskripsi: "Apel Pagi",
         tanggal: "12 Feb 2023",
-        foto: "images/kegiatan/keg1.jpg",
+        foto: "images/keg1.jpg",
         likes: 67,
         views: 287
     },
@@ -1055,7 +1054,7 @@ const galeriData = [
         judul: "Rutinitas Apel",
         deskripsi: "Apel Pagi", 
         tanggal: "19 Feb 2023",
-        foto: "images/kegiatan/keg2.jpg",
+        foto: "images/keg2.jpg",
         likes: 53,
         views: 234
     },
@@ -1065,7 +1064,7 @@ const galeriData = [
         judul: "Seminar Kedisiplinan",
         deskripsi: "Pembicara dari kepolisian setempat",
         tanggal: "26 Feb 2023",
-        foto: "images/kegiatan/keg3.jpg",
+        foto: "images/keg3.jpg",
         likes: 38,
         views: 198
     },
@@ -1077,7 +1076,7 @@ const galeriData = [
         judul: "Moment",
         deskripsi: "Istirahat setelah latihan",
         tanggal: "8 Jan 2026",
-        foto: "images/random/rand1.jpg",
+        foto: "images/rand1.jpg",
         likes: 45,
         views: 167
     },
@@ -1087,7 +1086,7 @@ const galeriData = [
         judul: "Moment",
         deskripsi: "Kegiatan pengakraban anggota",
         tanggal: "15 Jan 2026",
-        foto: "images/random/rand2.jpg",
+        foto: "images/rand2.jpg",
         likes: 61,
         views: 213
     },
@@ -1097,7 +1096,7 @@ const galeriData = [
         judul: "Moment",
         deskripsi: "Potret spontan saat latihan",
         tanggal: "22 Jan 2026",
-        foto: "images/random/rand3.jpg",
+        foto: "images/rand3.jpg",
         likes: 29,
         views: 145
     },
@@ -1107,7 +1106,7 @@ const galeriData = [
         judul: "Moment",
         deskripsi: "Diskusi informal dengan guru pembina",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand4.jpg",
+        foto: "images/rand4.jpg",
         likes: 34,
         views: 178
     },
@@ -1116,7 +1115,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand5.jpg",
+        foto: "images/rand5.jpg",
         likes: 34,
         views: 178
     },
@@ -1125,7 +1124,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand6.jpg",
+        foto: "images/rand6.jpg",
         likes: 34,
         views: 178
     },
@@ -1134,7 +1133,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand7.jpg",
+        foto: "images/rand7.jpg",
         likes: 34,
         views: 178
     },
@@ -1143,7 +1142,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand8.jpg",
+        foto: "images/rand8.jpg",
         likes: 34,
         views: 178
     },
@@ -1152,7 +1151,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand9.jpg",
+        foto: "images/rand9.jpg",
         likes: 34,
         views: 178
     },
@@ -1161,7 +1160,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand10.jpg",
+        foto: "images/rand10.jpg",
         likes: 34,
         views: 178
     },
@@ -1170,7 +1169,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand11.jpg",
+        foto: "images/rand11.jpg",
         likes: 34,
         views: 178
     },
@@ -1179,7 +1178,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand12.jpg",
+        foto: "images/rand12.jpg",
         likes: 34,
         views: 178
     },
@@ -1188,7 +1187,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand13.jpg",
+        foto: "images/rand13.jpg",
         likes: 34,
         views: 178
     },
@@ -1197,7 +1196,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand14.jpg",
+        foto: "images/rand14.jpg",
         likes: 34,
         views: 178
     },
@@ -1206,7 +1205,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand15.jpg",
+        foto: "images/rand15.jpg",
         likes: 34,
         views: 178
     },
@@ -1215,7 +1214,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand16.jpg",
+        foto: "images/rand16.jpg",
         likes: 34,
         views: 178
     },
@@ -1224,7 +1223,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand17.jpg",
+        foto: "images/rand17.jpg",
         likes: 34,
         views: 178
     },
@@ -1233,7 +1232,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand18.jpg",
+        foto: "images/rand18.jpg",
         likes: 34,
         views: 178
     },
@@ -1242,7 +1241,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand19.jpg",
+        foto: "images/rand19.jpg",
         likes: 34,
         views: 178
     },
@@ -1251,7 +1250,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand20.jpg",
+        foto: "images/rand20.jpg",
         likes: 34,
         views: 178
     },
@@ -1260,7 +1259,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand21.jpg",
+        foto: "images/rand21.jpg",
         likes: 34,
         views: 178
     },
@@ -1269,7 +1268,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand22.jpg",
+        foto: "images/rand22.jpg",
         likes: 34,
         views: 178
     },
@@ -1278,7 +1277,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand23.jpg",
+        foto: "images/rand23.jpg",
         likes: 34,
         views: 178
     },
@@ -1287,7 +1286,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand24.jpg",
+        foto: "images/rand24.jpg",
         likes: 34,
         views: 178
     },
@@ -1296,7 +1295,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand25.jpg",
+        foto: "images/rand25.jpg",
         likes: 34,
         views: 178
     },
@@ -1305,7 +1304,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand26.jpg",
+        foto: "images/rand26.jpg",
         likes: 34,
         views: 178
     },
@@ -1314,7 +1313,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand27.jpg",
+        foto: "images/rand27.jpg",
         likes: 34,
         views: 178
     },
@@ -1323,7 +1322,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand28.jpg",
+        foto: "images/rand28.jpg",
         likes: 34,
         views: 178
     },
@@ -1332,7 +1331,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand29.jpg",
+        foto: "images/rand29.jpg",
         likes: 34,
         views: 178
     },
@@ -1341,7 +1340,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand30.jpg",
+        foto: "images/rand30.jpg",
         likes: 34,
         views: 178
     },
@@ -1350,7 +1349,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand31.jpg",
+        foto: "images/rand31.jpg",
         likes: 34,
         views: 178
     },
@@ -1359,7 +1358,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand32.jpg",
+        foto: "images/rand32.jpg",
         likes: 34,
         views: 178
     },
@@ -1368,7 +1367,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand33.jpg",
+        foto: "images/rand33.jpg",
         likes: 34,
         views: 178
     },
@@ -1377,7 +1376,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand34.jpg",
+        foto: "images/rand34.jpg",
         likes: 34,
         views: 178
     },
@@ -1386,7 +1385,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand35.jpg",
+        foto: "images/rand35.jpg",
         likes: 34,
         views: 178
     },
@@ -1395,7 +1394,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand36.jpg",
+        foto: "images/rand36.jpg",
         likes: 34,
         views: 178
     },
@@ -1404,7 +1403,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand37.jpg",
+        foto: "images/rand37.jpg",
         likes: 34,
         views: 178
     },
@@ -1413,7 +1412,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand38.jpg",
+        foto: "images/rand38.jpg",
         likes: 34,
         views: 178
     },
@@ -1422,7 +1421,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand39.jpg",
+        foto: "images/rand39.jpg",
         likes: 34,
         views: 178
     },
@@ -1431,7 +1430,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand40.jpg",
+        foto: "images/rand40.jpg",
         likes: 34,
         views: 178
     },
@@ -1440,7 +1439,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand41.jpg",
+        foto: "images/rand41.jpg",
         likes: 34,
         views: 178
     },
@@ -1449,7 +1448,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand42.jpg",
+        foto: "images/rand42.jpg",
         likes: 34,
         views: 178
     },
@@ -1458,7 +1457,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand43.jpg",
+        foto: "images/rand43.jpg",
         likes: 34,
         views: 178
     },
@@ -1467,7 +1466,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand44.jpg",
+        foto: "images/rand44.jpg",
         likes: 34,
         views: 178
     },
@@ -1476,7 +1475,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand45.jpg",
+        foto: "images/rand45.jpg",
         likes: 34,
         views: 178
     },
@@ -1485,7 +1484,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand46.jpg",
+        foto: "images/rand46.jpg",
         likes: 34,
         views: 178
     },
@@ -1494,7 +1493,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand47.jpg",
+        foto: "images/rand47.jpg",
         likes: 34,
         views: 178
     },
@@ -1503,7 +1502,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand48.jpg",
+        foto: "images/rand48.jpg",
         likes: 34,
         views: 178
     },
@@ -1512,7 +1511,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand49.jpg",
+        foto: "images/rand49.jpg",
         likes: 34,
         views: 178
     },
@@ -1521,7 +1520,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand50.jpg",
+        foto: "images/rand50.jpg",
         likes: 34,
         views: 178
     },
@@ -1530,7 +1529,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand51.jpg",
+        foto: "images/rand51.jpg",
         likes: 34,
         views: 178
     },
@@ -1539,7 +1538,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand52.jpg",
+        foto: "images/rand52.jpg",
         likes: 34,
         views: 178
     },
@@ -1548,7 +1547,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand53.jpg",
+        foto: "images/rand53.jpg",
         likes: 34,
         views: 178
     },
@@ -1557,7 +1556,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand54.jpg",
+        foto: "images/rand54.jpg",
         likes: 34,
         views: 178
     },
@@ -1566,7 +1565,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand55.jpg",
+        foto: "images/rand55.jpg",
         likes: 34,
         views: 178
     },
@@ -1575,7 +1574,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand56.jpg",
+        foto: "images/rand56.jpg",
         likes: 34,
         views: 178
     },
@@ -1584,7 +1583,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand57.jpg",
+        foto: "images/rand57.jpg",
         likes: 34,
         views: 178
     },
@@ -1593,7 +1592,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand58.jpg",
+        foto: "images/rand58.jpg",
         likes: 34,
         views: 178
     },
@@ -1602,7 +1601,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand59.jpg",
+        foto: "images/rand59.jpg",
         likes: 34,
         views: 178
     },
@@ -1611,7 +1610,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand60.jpg",
+        foto: "images/rand60.jpg",
         likes: 34,
         views: 178
     },
@@ -1620,7 +1619,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand61.jpg",
+        foto: "images/rand61.jpg",
         likes: 34,
         views: 178
     },
@@ -1629,7 +1628,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand62.jpg",
+        foto: "images/rand62.jpg",
         likes: 34,
         views: 178
     },
@@ -1638,7 +1637,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand63.jpg",
+        foto: "images/rand63.jpg",
         likes: 34,
         views: 178
     },
@@ -1647,7 +1646,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand64.jpg",
+        foto: "images/rand64.jpg",
         likes: 34,
         views: 178
     },
@@ -1656,7 +1655,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand65.jpg",
+        foto: "images/rand65.jpg",
         likes: 34,
         views: 178
     },
@@ -1665,7 +1664,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand66.jpg",
+        foto: "images/rand66.jpg",
         likes: 34,
         views: 178
     },
@@ -1674,7 +1673,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand67.jpg",
+        foto: "images/rand67.jpg",
         likes: 34,
         views: 178
     },
@@ -1683,7 +1682,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand68.jpg",
+        foto: "images/rand68.jpg",
         likes: 34,
         views: 178
     },
@@ -1692,7 +1691,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand69.jpg",
+        foto: "images/rand69.jpg",
         likes: 34,
         views: 178
     },
@@ -1701,7 +1700,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand70.jpg",
+        foto: "images/rand70.jpg",
         likes: 34,
         views: 178
     },
@@ -1710,7 +1709,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand71.jpg",
+        foto: "images/rand71.jpg",
         likes: 34,
         views: 178
     },
@@ -1719,7 +1718,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand72.jpg",
+        foto: "images/rand72.jpg",
         likes: 34,
         views: 178
     },
@@ -1728,7 +1727,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand73.jpg",
+        foto: "images/rand73.jpg",
         likes: 34,
         views: 178
     },
@@ -1737,7 +1736,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand74.jpg",
+        foto: "images/rand74.jpg",
         likes: 34,
         views: 178
     },
@@ -1746,7 +1745,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand75.jpg",
+        foto: "images/rand75.jpg",
         likes: 34,
         views: 178
     },
@@ -1755,7 +1754,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand76.jpg",
+        foto: "images/rand76.jpg",
         likes: 34,
         views: 178
     },
@@ -1764,7 +1763,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand77.jpg",
+        foto: "images/rand77.jpg",
         likes: 34,
         views: 178
     },
@@ -1773,7 +1772,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand78.jpg",
+        foto: "images/rand78.jpg",
         likes: 34,
         views: 178
     },
@@ -1782,7 +1781,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand79.jpg",
+        foto: "images/rand79.jpg",
         likes: 34,
         views: 178
     },
@@ -1791,7 +1790,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand80.jpg",
+        foto: "images/rand80.jpg",
         likes: 34,
         views: 178
     },
@@ -1800,7 +1799,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand81.jpg",
+        foto: "images/rand81.jpg",
         likes: 34,
         views: 178
     },
@@ -1809,7 +1808,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand82.jpg",
+        foto: "images/rand82.jpg",
         likes: 34,
         views: 178
     },
@@ -1818,7 +1817,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand83.jpg",
+        foto: "images/rand83.jpg",
         likes: 34,
         views: 178
     },
@@ -1827,7 +1826,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand84.jpg",
+        foto: "images/rand84.jpg",
         likes: 34,
         views: 178
     },
@@ -1836,7 +1835,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand85.jpg",
+        foto: "images/rand85.jpg",
         likes: 34,
         views: 178
     },
@@ -1845,7 +1844,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand86.jpg",
+        foto: "images/rand86.jpg",
         likes: 34,
         views: 178
     },
@@ -1854,7 +1853,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand87.jpg",
+        foto: "images/rand87.jpg",
         likes: 34,
         views: 178
     },
@@ -1863,7 +1862,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand88.jpg",
+        foto: "images/rand88.jpg",
         likes: 34,
         views: 178
     },
@@ -1872,7 +1871,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand89.jpg",
+        foto: "images/rand89.jpg",
         likes: 34,
         views: 178
     },
@@ -1881,7 +1880,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand90.jpg",
+        foto: "images/rand90.jpg",
         likes: 34,
         views: 178
     },
@@ -1890,7 +1889,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand91.jpg",
+        foto: "images/rand91.jpg",
         likes: 34,
         views: 178
     },
@@ -1899,7 +1898,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand92.jpg",
+        foto: "images/rand92.jpg",
         likes: 34,
         views: 178
     },
@@ -1908,7 +1907,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand93.jpg",
+        foto: "images/rand93.jpg",
         likes: 34,
         views: 178
     },
@@ -1917,7 +1916,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand94.jpg",
+        foto: "images/rand94.jpg",
         likes: 34,
         views: 178
     },
@@ -1926,7 +1925,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand95.jpg",
+        foto: "images/rand95.jpg",
         likes: 34,
         views: 178
     },
@@ -1935,7 +1934,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand96.jpg",
+        foto: "images/rand96.jpg",
         likes: 34,
         views: 178
     },
@@ -1944,7 +1943,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand97.jpg",
+        foto: "images/rand97.jpg",
         likes: 34,
         views: 178
     },
@@ -1953,7 +1952,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand98.jpg",
+        foto: "images/rand98.jpg",
         likes: 34,
         views: 178
     },
@@ -1962,7 +1961,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand99.jpg",
+        foto: "images/rand99.jpg",
         likes: 34,
         views: 178
     },
@@ -1971,7 +1970,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand100.jpg",
+        foto: "images/rand100.jpg",
         likes: 34,
         views: 178
     },
@@ -1980,7 +1979,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand101.jpg",
+        foto: "images/rand101.jpg",
         likes: 34,
         views: 178
     },
@@ -1989,7 +1988,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand102.jpg",
+        foto: "images/rand102.jpg",
         likes: 34,
         views: 178
     },
@@ -1998,7 +1997,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand103.jpg",
+        foto: "images/rand103.jpg",
         likes: 34,
         views: 178
     },
@@ -2007,7 +2006,7 @@ const galeriData = [
         kategori: "random",
         judul: "Moment",
         tanggal: "29 Jan 2026",
-        foto: "images/random/rand104.jpg",
+        foto: "images/rand104.jpg",
         likes: 34,
         views: 178
     },
@@ -2019,7 +2018,7 @@ const galeriData = [
         judul: "Upacara Bendera",
         deskripsi: "Hari Senin yang khidmat",
         tanggal: "9 Jan 2023",
-        foto: "images/upacara/up1.jpg",
+        foto: "images/up1.jpg",
         likes: 72,
         views: 256
     },
@@ -2029,7 +2028,7 @@ const galeriData = [
         judul: "Penghormatan Bendera",
         deskripsi: "Detik-detik pengibaran bendera",
         tanggal: "16 Jan 2023",
-        foto: "images/upacara/up2.jpg",
+        foto: "images/up2.jpg",
         likes: 58,
         views: 221
     },
@@ -2039,7 +2038,7 @@ const galeriData = [
         judul: "Tim Pengibar Bendera",
         deskripsi: "Anggota PKS bertugas sebagai Paskibra",
         tanggal: "23 Jan 2023",
-        foto: "images/upacara/up3.jpg",
+        foto: "images/up3.jpg",
         likes: 49,
         views: 194
     }
