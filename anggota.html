@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Anggota - PKS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/logo1.png" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo PKS" class="logo-img">
+                    <div class="logo-text">
+                        <h1>PATROLI KEAMANAN SEKOLAH</h1>
+                        <p>SMK NEGERI 8 KAB.TANGERANG</p>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                    <li><a href="struktur.html"><i class="fas fa-sitemap"></i> Struktur</a></li>
+                    <li><a href="anggota.html" class="active"><i class="fas fa-users"></i> Anggota</a></li>
+
+                    <li><a href="galeri.html"><i class="fas fa-images"></i> Galeri</a></li>
+
+                    <li><a href="kontak.html"><i class="fas fa-envelope"></i> Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Data Anggota PKS</h1>
+            <p>Kenali semua anggota Patroli Keamanan Sekolah</p>
+        </div>
+    </section>
+
+    <!-- Filter & Search -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-controls">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchAnggota" placeholder="Cari nama anggota...">
+                </div>
+                
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="purna">Purna</button>
+                    <button class="filter-btn" data-filter="senior">Senior</button>
+                    <button class="filter-btn" data-filter="muda">Muda</button>
+                    <button class="filter-btn" data-filter="alumni">Alumni</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daftar Anggota -->
+    <section class="anggota-section">
+        <div class="container">
+            <div class="anggota-grid" id="anggotaContainer">
+                <!-- Anggota akan dimuat via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Tingkatan Anggota -->
+    <section class="tingkatan-section">
+        <div class="container">
+            <h2 class="section-title">Tingkatan Anggota</h2>
+            
+            <div class="tingkatan-grid">
+                <!-- Tingkatan 1 -->
+                <div class="tingkatan-card senior">
+                    <div class="tingkatan-header">
+                        <div class="tingkatan-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Anggota Purna</h3>
+                        <div class="anggota-count">6 Anggota</div>
+                    </div>
+                    <div class="tingkatan-body">
+                        <p><strong>Kriteria:</strong></p>
+                        <ul>
+                            <li>Kelas XII (Semester 5-6)</li>
+                            <li>Pengalaman minimal 2 tahun</li>
+                            <li>Bertanggung jawab penuh</li>
+                            <li>Sebagai pelatih anggota muda</li>
+                        </ul>
+                        <p class="tugas-utama"><strong>Tugas Utama:</strong> Pengambilan keputusan, evaluasi, pembinaan</p>
+                    </div>
+                </div>
+                
+                <!-- Tingkatan 2 -->
+                <div class="tingkatan-card biasa">
+                    <div class="tingkatan-header">
+                        <div class="tingkatan-icon">
+                            <i class="fas fa-user-check"></i>
+                        </div>
+                        <h3>Anggota Senior</h3>
+                        <div class="anggota-count">20 Anggota</div>
+                    </div>
+                    <div class="tingkatan-body">
+                        <p><strong>Kriteria:</strong></p>
+                        <ul>
+                            <li>Kelas XI (Semester 3-4)</li>
+                            <li>Pengalaman minimal 1 tahun</li>
+                            <li>Menjalankan tugas rutin</li>
+                            <li>Bisa menjadi koordinator seksi</li>
+                        </ul>
+                        <p class="tugas-utama"><strong>Tugas Utama:</strong> Pelaksana harian, monitoring, pelaporan</p>
+                    </div>
+                </div>
+                
+                <!-- Tingkatan 3 -->
+                <div class="tingkatan-card muda">
+                    <div class="tingkatan-header">
+                        <div class="tingkatan-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Anggota Muda</h3>
+                        <div class="anggota-count">13 Anggota</div>
+                    </div>
+                    <div class="tingkatan-body">
+                        <p><strong>Kriteria:</strong></p>
+                        <ul>
+                            <li>Kelas X (Semester 1-2)</li>
+                            <li>Anggota baru/rekrutmen</li>
+                            <li>Masa orientasi & belajar</li>
+                            <li>Latihan dasar PBB</li>
+                        </ul>
+                        <p class="tugas-utama"><strong>Tugas Utama:</strong> Belajar, observasi, tugas ringan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistik -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title">Statistik Anggota</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="39">0</div>
+                    <div class="stat-label">Total Anggota</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number" data-count="6">0</div>
+                    <div class="stat-label">Anggota Senior</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number" data-count="20">0</div>
+                    <div class="stat-label">Anggota Biasa</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number" data-count="13">0</div>
+                    <div class="stat-label">Anggota Muda</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-number" data-count="3">0</div>
+                    <div class="stat-label">Divisi/Seksi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Logo PKS">
+                    <h3>PATROLI KEAMANAN SEKOLAH</h3>
+                    <p>SMK NEGERI 8 KAB.TANGERANG</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="struktur.html">Struktur Organisasi</a></li>
+                        <li><a href="anggota.html">Data Anggota</a></li>
+                        <li><a href="galeri.html">Galeri Foto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Sarwani No.10, Tipar Raya, Kec. Jambe, Kabupaten Tangerang, Banten 15720</p>
+                    <p><i class="fas fa-envelope"></i> pksn8tangerang@gmail.com</p>
+                </div>
+</div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="current-year">2026</span> Patroli Keamanan Sekolah. Semua Hak Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

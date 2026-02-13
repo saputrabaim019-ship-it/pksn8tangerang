@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - PKS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/logo1.png" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo PKS" class="logo-img">
+                    <div class="logo-text">
+                        <h1>PATROLI KEAMANAN SEKOLAH</h1>
+                        <p>SMK NEGERI 8 KAB.TANGERANG</p>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                    <li><a href="struktur.html"><i class="fas fa-sitemap"></i> Struktur</a></li>
+                    <li><a href="anggota.html"><i class="fas fa-users"></i> Anggota</a></li>
+                 
+                    <li><a href="galeri.html"><i class="fas fa-images"></i> Galeri</a></li>
+
+                    <li><a href="kontak.html" class="active"><i class="fas fa-envelope"></i> Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Hubungi Kami</h1>
+            <p>Silakan hubungi Patroli Keamanan Sekolah untuk informasi dan kerjasama</p>
+        </div>
+    </section>
+
+    <!-- Kontak Information -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Alamat Sekolah</h3>
+                        <p>Jl. Sarwani No.10, Tipar Raya</p>
+                        <p>Kec. Jambe</p>
+                        <p>Kab. Tangerang Banten 15720</p>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Telepon & WhatsApp</h3>
+
+
+                        <p>0858-1020-5580 - Ketua PKS</p>
+                        <p>0898-9597-553 - Sekretaris</p>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>pksn8tangerang@gmail.com</p>
+                        <p>pksn8tangerang@gmail.com</p>
+                        <p>pksn8tangerang@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Jam Operasional</h3>
+                        <p>Senin - Jumat: 07:00 - 16:00 WIB</p>
+                        <p>Sabtu: 07:00 - 12:00 WIB</p>
+                        <p>Minggu & Hari Libur: Tutup</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form-container">
+                    <h2 class="section-title">Kirim Pesan</h2>
+                    <p class="section-subtitle">Isi form berikut untuk mengirim pesan kepada kami</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="nama@email.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone" placeholder="0812-3456-7890">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subjek <span class="required">*</span></label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Pilih subjek pesan</option>
+                                <option value="informasi">Informasi Umum</option>
+                                <option value="anggota">Pendaftaran Anggota</option>
+                                <option value="kerjasama">Kerjasama Kegiatan</option>
+                                <option value="kritik">Kritik & Saran</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Pesan <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <label for="newsletter">Saya ingin menerima update kegiatan PKS via email</label>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-map-container">
+                    <h2 class="section-title">Lokasi Sekolah</h2>
+                    <div class="map-wrapper">
+                        <!-- Google Maps Embed -->
+                        <div class="map-placeholder">
+                            <div class="map-content">
+                                <h3>SMK NEGERI 8 KAB.TANGERANH</h3>
+                                <p><i class="fas fa-map-marker-alt"></i> Jl. Sarwani No.10, Tipar Raya, Kec. Jambe, Kabupaten Tangerang, Banten 15720</p>
+                                <div class="map-directions">
+                                    <h4>Petunjuk Arah:</h4>
+                                    <ul>
+                                        <li>Dari puskesmas solong: Lurus ke depan
+                                        <li>Di pertigaan kecamatan  Jambe ambil lurus </li>
+                                        <li>Sekolah berada di sebelah kiri jalan</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="map-actions">
+                                <a href="https://maps.google.com" target="_blank" class="btn-map">
+                                    <i class="fas fa-external-link-alt"></i> Buka di Google Maps
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-notes">
+                        <h3>Catatan Penting:</h3>
+                        <ul>
+                            <li><i class="fas fa-info-circle"></i> Kunjungan harus membuat janji terlebih dahulu</li>
+                            <li><i class="fas fa-info-circle"></i> Untuk urusan penting, hubungi via telepon</li>
+                            <li><i class="fas fa-info-circle"></i> Respon email maksimal 2x24 jam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pengurus yang dapat dihubungi -->
+    <section class="contact-persons">
+        <div class="container">
+            <h2 class="section-title">Pengurus yang dapat dihubungi</h2>
+            
+            <div class="persons-grid">
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="images/anggota/ketua.jpg" alt="Ketua PKS">
+                    </div>
+                    <div class="person-info">
+                        <h3>Rey Marpiyansah</h3>
+                        <p class="person-role">Ketua PKS</p>
+                        <div class="person-contact">
+                            <p><i class="fab fa-whatsapp"></i> 0858-1020-5580</p>
+                            <p><i class="fas fa-envelope"></i>-</p>
+                        </div>
+                        <div class="person-hours">
+                            <p><i class="fas fa-clock"></i> Waktu responsif: 16:00 - 20:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="images/anggota/wakil.jpg" alt="Wakil Ketua">
+                    </div>
+                    <div class="person-info">
+                        <h3>Evi Amelia</h3>
+                        <p class="person-role">Wakil Ketua PKS</p>
+                        <div class="person-contact">
+                            <p><i class="fab fa-whatsapp"></i> 0818-0699-2574</p>
+                            <p><i class="fas fa-envelope"></i>-</p>
+                        </div>
+                        <div class="person-hours">
+                            <p><i class="fas fa-clock"></i> Waktu responsif: 15:00 - 19:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="images/anggota/koord2.jpg" alt="Sekretaris">
+                    </div>
+                    <div class="person-info">
+                        <h3>Siti Nurohmah</h3>
+                        <p class="person-role">Sekretaris PKS</p>
+                        <div class="person-contact">
+                            <p><i class="fab fa-whatsapp"></i>0858-8252-5413</p>
+                            <p><i class="fas fa-envelope"></i>-</p>
+                        </div>
+                        <div class="person-hours">
+                            <p><i class="fas fa-clock"></i> Waktu responsif: 14:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="person-card">
+                    <div class="person-photo">
+                        <img src="images/anggota/pembina.jpg" alt="Guru Pembina">
+                    </div>
+                    <div class="person-info">
+                        <h3>Denny Eka Saputra S.T</h3>
+                        <p class="person-role">Guru Pembina Utama</p>
+                        <div class="person-contact">
+                            <p><i class="fas fa-phone"></i>0822-6037-0690</p>
+                            <p><i class="fas fa-envelope"></i>-</p>
+                        </div>
+                        <div class="person-hours">
+                            <p><i class="fas fa-clock"></i> Waktu responsif: 07:00 - 15:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Bagaimana cara mendaftar menjadi anggota PKS?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Pendaftaran anggota baru dibuka setiap awal tahun ajaran. Calon anggota wajib masuk ke dalam grup calon pks, mengikuti tes fisik dan wawancara, dana mengikuti masa orientasi selama beberapa minggu.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Apa saja syarat menjadi anggota PKS?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Syarat utama: siswa aktif sekolah, memiliki kesehatan jasmani dan rohani yang baik, memiliki sikap disiplin, bersedia mengikuti semua kegiatan, dan mendapatkan izin dari orang tua/wali.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Kapan saja jadwal rapat PKS?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Rapat pks di adakan setiap 2 minggu sekali yaitu di hari senin dan hari jumat, dari jam 15.30 WIB s/d selesai</p>
+                    </div>
+                </div>
+                
+    </section>
+
+    <!-- Social Media -->
+    <section class="social-section">
+        <div class="container">
+            <h2 class="section-title">Ikuti Kami di Media Sosial</h2>
+            <p class="section-subtitle">Dapatkan update terbaru kegiatan PKS melalui media sosial kami</p>
+            
+            <div class="social-grid">
+                <a href="#" class="social-card instagram">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>Instagram</h3>
+                        <p>@poltarr_n8</p>
+                        <span class="social-followers">234 Followers</span>
+                    </div>
+                </a>
+                
+                <a href="#" class="social-card facebook">
+                    <div class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>Facebook</h3>
+                        <p></p>
+                        <span class="social-followers"></span>
+                    </div>
+                </a>
+                
+                <a href="#" class="social-card youtube">
+                    <div class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>YouTube</h3>
+                        <p></p>
+                        <span class="social-followers"></span>
+                    </div>
+                </a>
+                
+                <a href="#" class="social-card tiktok">
+                    <div class="social-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <div class="social-info">
+                        <h3>TikTok</h3>
+                        <p></p>
+                        <span class="social-followers"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Logo PKS">
+                    <h3>PATROLI KEAMANAN SEKOLAH</h3>
+                    <p>SMK NEGERI 8 KAB.TANGERANG</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="struktur.html">Struktur Organisasi</a></li>
+                        <li><a href="anggota.html">Data Anggota</a></li>
+                        <li><a href="kontak.html">Kontak Kami</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontak Darurat</h4>
+                    <p><i class="fas fa-phone"></i> 0821-2193-3024</p>
+                    <p><i class="fas fa-envelope"></i> pksn8tangerang@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> 24/7 Hotline</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Patroli Keamanan Sekolah. Semua Hak Dilindungi.</p>
+                <p>Website ini dikelola oleh Baim Saputra</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

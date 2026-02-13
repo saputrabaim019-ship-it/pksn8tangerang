@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto - PKS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    <link rel="icon" href="images/logo1.png" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo PKS" class="logo-img">
+                    <div class="logo-text">
+                        <h1>PATROLI KEAMANAN SEKOLAH</h1>
+                        <p>SMK NEGERI 8 KAB.TANGERANG</p>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                    <li><a href="struktur.html"><i class="fas fa-sitemap"></i> Struktur</a></li>
+                    <li><a href="anggota.html"><i class="fas fa-users"></i> Anggota</a></li>
+
+                    <li><a href="galeri.html" class="active"><i class="fas fa-images"></i> Galeri</a></li>
+
+                    <li><a href="kontak.html"><i class="fas fa-envelope"></i> Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Galeri Foto PKS</h1>
+            <p>Koleksi foto kegiatan, latihan, dan moment spesial Patroli Keamanan Sekolah</p>
+        </div>
+    </section>
+
+    <!-- Filter Galeri -->
+    <section class="galeri-filter">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-filter="all">
+                    <i class="fas fa-th"></i> Semua Foto
+                </button>
+                <button class="tab-btn" data-filter="latihan">
+                    <i class="fas fa-dumbbell"></i> Latihan Rutin
+                </button>
+                <button class="tab-btn" data-filter="kegiatan">
+                    <i class="fas fa-calendar-check"></i> Kegiatan
+                </button>
+                <button class="tab-btn" data-filter="random">
+                    <i class="fas fa-camera"></i> Foto Random
+                </button>
+                <button class="tab-btn" data-filter="upacara">
+                    <i class="fas fa-flag"></i> Upacara
+                </button>
+            </div>
+            
+            <div class="sort-options">
+                <select id="sortSelect">
+                    <option value="newest">Terbaru</option>
+                    <option value="oldest">Terlama</option>
+                    <option value="name">Nama A-Z</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Grid -->
+    <section class="galeri-grid-section">
+        <div class="container">
+            <div class="galeri-stats">
+                <div class="stat">
+                    <i class="fas fa-images"></i>
+                    <span id="totalPhotos">0</span> Foto
+                </div>
+                <div class="stat">
+                    <i class="fas fa-folder"></i>
+                    <span id="totalAlbums">4</span> Album
+                </div>
+                <div class="stat">
+                    <i class="fas fa-calendar"></i>
+                    <span id="latestUpdate">2026</span> Update Terbaru
+                </div>
+            </div>
+
+            <div class="galeri-grid" id="galeriContainer">
+                <!-- Foto akan dimuat via JavaScript -->
+            </div>
+          
+</div>
+            <div class="load-more">
+                <button id="loadMoreBtn" class="btn-primary">
+                    <i class="fas fa-plus"></i> Tampilkan Lebih Banyak
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Lightbox -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption"></div>
+        <div class="modal-nav">
+            <button class="modal-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="modal-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Logo PKS">
+                    <h3>PATROLI KEAMANAN SEKOLAH</h3>
+                    <p>SMK NEGERI 8 KAB.TANGERANG</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="struktur.html">Struktur Organisasi</a></li>
+                        <li><a href="anggota.html">Data Anggota</a></li>
+                        <li><a href="galeri.html">Galeri Foto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Sarwani No.10, Tipar Raya, Kec. Jambe, Kabupaten Tangerang, Banten 15720</p>
+                    <p><i class="fas fa-envelope"></i> pksn8tangerang@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Patroli Keamanan Sekolah. Semua Hak Dilindungi.</p>
+                <p>Website ini dikelola oleh Baim Saputra</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
