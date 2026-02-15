@@ -455,7 +455,7 @@ const anggotaData = [
         jabatan: "Anggota Senior",
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
-        kelas: "XI Ak 1",
+        kelas: "XI AKL 1",
         foto: "images/19.jpg",
         motto: "Mimpi besar, mulai kecil",
         whatsapp: "081234567898"
