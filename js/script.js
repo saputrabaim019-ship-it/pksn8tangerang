@@ -1821,33 +1821,7 @@ const galeriData = [
         likes: 34,
         views: 178
     },
-    {
-        id: 91,
-        kategori: "random",
-        judul: "Moment",
-        tanggal: "29 Jan 2026",
-        foto: "images/rand84.jpg",
-        likes: 34,
-        views: 178
-    },
-    {
-        id: 92,
-        kategori: "random",
-        judul: "Moment",
-        tanggal: "29 Jan 2026",
-        foto: "images/rand85.jpg",
-        likes: 34,
-        views: 178
-    },
-    {
-        id: 93,
-        kategori: "random",
-        judul: "Moment",
-        tanggal: "29 Jan 2026",
-        foto: "images/rand86.jpg",
-        likes: 34,
-        views: 178
-    },
+    // 84,85,86
     {
         id: 94,
         kategori: "random",
@@ -1857,15 +1831,7 @@ const galeriData = [
         likes: 34,
         views: 178
     },
-    {
-        id: 95,
-        kategori: "random",
-        judul: "Moment",
-        tanggal: "29 Jan 2026",
-        foto: "images/rand88.jpg",
-        likes: 34,
-        views: 178
-    },
+    //88
     {
         id: 96,
         kategori: "random",
@@ -1875,15 +1841,7 @@ const galeriData = [
         likes: 34,
         views: 178
     },
-    {
-        id: 97,
-        kategori: "random",
-        judul: "Moment",
-        tanggal: "29 Jan 2026",
-        foto: "images/rand90.jpg",
-        likes: 34,
-        views: 178
-    },
+    //90
     {
         id: 98,
         kategori: "random",
