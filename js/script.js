@@ -477,7 +477,7 @@ const anggotaData = [
         jabatan: "Anggota Senior",
         divisi: "Administrasi",
         tingkatan: "senior",
-        kelas: "XI MPLB 2",
+        kelas: "XI MPLB 3",
         foto: "images/21.jpg",
         motto: "Waktu adalah kesempatan",
         whatsapp: "081234567898"
@@ -556,7 +556,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Administrasi",
         tingkatan: "muda",
-        kelas: "X AK 1",
+        kelas: "X AKL 1",
         foto: "images/28.jpg",
         motto: "Semangat berlatih",
         whatsapp: "081234567897"
@@ -567,7 +567,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
-        kelas: "X AK 1",
+        kelas: "X AKL 1",
         foto: "images/29.jpg",
         motto: "Belajar tanpa batas",
         whatsapp: "081234567898"
@@ -578,7 +578,7 @@ const anggotaData = [
         jabatan: "Anggota Muda", 
         divisi: "Humas & P3k", 
         tingkatan: "muda", 
-        kelas: "X MPLB 1", 
+        kelas: "X MPLB 2", 
         foto: "images/30.jpg", 
         motto: "Hargai proses", 
         whatsapp: "082121933024"
@@ -589,7 +589,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
-        kelas: "X AK 1",
+        kelas: "X AKL 1",
         foto: "images/31.jpg",
         motto: "Bergerak atau tertinggal", 
         whatsapp: "082121933024"
@@ -600,7 +600,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
-        kelas: "X AK 2",
+        kelas: "X AKL 2",
         foto: "images/32.jpg",
         motto: "Jangan menunda mimpi",
         whatsapp: "081234567898"
@@ -633,7 +633,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Administrasi",
         tingkatan: "muda",
-        kelas: "X AK 2",
+        kelas: "X AKL 1",
         foto: "images/35.jpg",
         motto: "Berpikir positif",
         whatsapp: "081234567898"
@@ -655,7 +655,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Humas & P3k",
         tingkatan: "muda",
-        kelas: "X AK 2",
+        kelas: "X AKL 2",
         foto: "images/37.jpg",
         motto: "Buktikan dengan hasil",
         whatsapp: "081234567898"
@@ -666,7 +666,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Humas & P3k",
         tingkatan: "muda",
-        kelas: "X AK 2",
+        kelas: "X AKL 2",
         foto: "images/38.jpg",
         motto: "Maju selangkah setiap hari",
         whatsapp: "081234567898"
@@ -677,7 +677,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Humas & P3k",
         tingkatan: "muda",
-        kelas: "X AK 2",
+        kelas: "X AKL 2",
         foto: "images/39.jpg",
         motto: "Belajar dari kesalahan",
         whatsapp: "081234567898"
