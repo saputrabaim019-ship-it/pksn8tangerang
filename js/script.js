@@ -567,7 +567,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
-        kelas: "X AK 2",
+        kelas: "X AK 1",
         foto: "images/29.jpg",
         motto: "Belajar tanpa batas",
         whatsapp: "081234567898"
@@ -587,7 +587,7 @@ const anggotaData = [
         id: 31,
         nama: "Anggita Bunga Kirani",
         jabatan: "Anggota Muda",
-        divisi: "Humas & P3k",
+        divisi: "Penindak & Penertiban",
         tingkatan: "muda",
         kelas: "X AK 1",
         foto: "images/31.jpg",
