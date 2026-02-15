@@ -422,7 +422,7 @@ const anggotaData = [
         jabatan: "Anggota Senior",
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
-        kelas: "XI Ak 2",
+        kelas: "XI AKL 2",
         foto: "images/16.jpg",
         motto: "Jangan takut mencoba",
         whatsapp: "081234567898"
@@ -433,7 +433,7 @@ const anggotaData = [
         jabatan: "Anggota Senior",
         divisi: "Humas & P3k",
         tingkatan: "senior",
-        kelas: "XI Ak 2",
+        kelas: "XI AKL 2",
         foto: "images/17.jpg",
         motto: "Sukses butuh proses",
         whatsapp: "081234567898"
@@ -455,7 +455,7 @@ const anggotaData = [
         jabatan: "Anggota Senior",
         divisi: "Penindak & Penertiban",
         tingkatan: "senior",
-        kelas: "XI Ak 2",
+        kelas: "XI AKL 1",
         foto: "images/19.jpg",
         motto: "Mimpi besar, mulai kecil",
         whatsapp: "081234567898"
@@ -521,7 +521,7 @@ const anggotaData = [
         jabatan: "Anggota Senior",
         divisi: "Humas & P3k",
         tingkatan: "senior",
-        kelas: "XI IPA 2",
+        kelas: "XI TKJ 2",
         foto: "images/25.jpg",
         motto: "Usaha lebih, hasil lebih",
         whatsapp: "081234567898"
@@ -655,7 +655,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Humas & P3k",
         tingkatan: "muda",
-        kelas: "X AKL 2",
+        kelas: "X MPLB 1",
         foto: "images/37.jpg",
         motto: "Buktikan dengan hasil",
         whatsapp: "081234567898"
