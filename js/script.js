@@ -256,7 +256,7 @@ const anggotaData = [
         divisi: "Komandan",
         tingkatan: "purna",
         kelas: "XII AKL 1",
-        foto: "images/anggota/senior/1.jpg",
+        foto: "images/1.jpg",
         motto: "Disiplin pangkal kesuksesan",
         whatsapp: "081234567890"
     },
@@ -267,7 +267,7 @@ const anggotaData = [
         divisi: "Wakil Komandan",
         tingkatan: "purna",
         kelas: "XII AKL 2",
-        foto: "images/anggota/senior/2.jpg",
+        foto: "images/2.jpg",
         motto: "Pantang menyerah",
         whatsapp: "081234567891"
     },
@@ -278,7 +278,7 @@ const anggotaData = [
         divisi: "P3K",
         tingkatan: "purna",
         kelas: "XII TKJ 2",
-        foto: "images/anggota/senior/3.jpg",
+        foto: "images/3.jpg",
         motto: "Sehat dan bersih",
         whatsapp: "081234567892"
     },
@@ -289,7 +289,7 @@ const anggotaData = [
         divisi: "Penertib",
         tingkatan: "purna",
         kelas: "XII MPLB 2",
-        foto: "images/anggota/senior/4.jpg",
+        foto: "images/4.jpg",
         motto: "Disiplin waktu",
         whatsapp: "081234567892"
     },
@@ -300,7 +300,7 @@ const anggotaData = [
         divisi: "Operator",
         tingkatan: "purna",
         kelas: "XII MPLB 2",
-        foto: "images/anggota/senior/5.jpg",
+        foto: "images/5.jpg",
         motto: "Gagal bukan akhir",
         whatsapp: "081234567892"
     },
@@ -311,7 +311,7 @@ const anggotaData = [
         divisi: "Penindak",
         tingkatan: "purna",
         kelas: "XII TITL 2",
-        foto: "images/anggota/senior/6.jpg",
+        foto: "images/6.jpg",
         motto: "Fokus tujuan",
         whatsapp: "081234567892"
     },
@@ -324,7 +324,7 @@ const anggotaData = [
         divisi: "Komandan (saat ini)",
         tingkatan: "senior",
         kelas: "XI TKJ 2",
-        foto: "images/anggota/anggota biasa/7.jpg",
+        foto: "images/7.jpg",
         motto: "Konsisten dalam tindakan",
         whatsapp: "081234567893"
     },
