@@ -1106,17 +1106,18 @@ header {
     box-shadow: var(--shadow-lg);
 }
 
-.tingkatan-card.purna .tingkatan-header {
-    background: var(--primary);
+.tingkatan-card.senior .tingkatan-header {
+    background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
 }
 
-.tingkatan-card.senior .tingkatan-header {
-    background: var(--secondary);
+.tingkatan-card.biasa .tingkatan-header {
+    background: linear-gradient(135deg, #D2691E 0%, #CD853F 100%);
 }
 
 .tingkatan-card.muda .tingkatan-header {
-    background: var(--accent);
+    background: linear-gradient(135deg, #FFA500 0%, #FF8C00 100%);
 }
+
 
 .tingkatan-header {
     padding: 25px;
