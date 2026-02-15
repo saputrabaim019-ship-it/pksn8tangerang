@@ -573,6 +573,261 @@ const anggotaData = [
         whatsapp: "081234567898"
     },
     {
+{
+        id: 7,
+        nama: "Rey Marpiyansyah",
+        jabatan: "Anggota Senior",
+        divisi: "Komandan (saat ini)",
+        tingkatan: "senior",
+        kelas: "XI TKJ 2",
+        foto: "images/anggota/anggota biasa/7.jpg",
+        motto: "Konsisten dalam tindakan",
+        whatsapp: "081234567893"
+    },
+    {
+        id: 8,
+        nama: "Evi Amelia",
+        jabatan: "Anggota Senior",
+        divisi: "Wakil Komandan (saat ini)",
+        tingkatan: "senior",
+        kelas: "XI MPLB 1",
+        foto: "images/8.jpg",
+        motto: "Hormat dan patuh",
+        whatsapp: "081234567894"
+    },
+    {
+        id: 9,
+        nama: "Siti Nurohmah",
+        jabatan: "Anggota Senior",
+        divisi: "Sekretaris",
+        tingkatan: "senior",
+        kelas: "XI MPLB 3",
+        foto: "images/9.jpg",
+        motto: "Rapi dan teratur",
+        whatsapp: "081234567895"
+    },
+    {
+        id: 10,
+        nama: "Soehartia",
+        jabatan: "Anggota Senior",
+        divisi: "Bendahara",
+        tingkatan: "senior",
+        kelas: "XI MPLB 2",
+        foto: "images/10.jpg",
+        motto: "Berani berubah",
+        whatsapp: "081234567895"
+    },
+    {
+        id: 11,
+        nama: "Olipia",
+        jabatan: "Anggota Senior",
+        divisi: "Administrasi",
+        tingkatan: "senior",
+        kelas: "XI TKJ 3",
+        foto: "images/11.jpg",
+        motto: "Terus maju tanpa ragu",
+        whatsapp: "081234567895"
+    },
+    {
+        id: 12,
+        nama: "Wahyudin", 
+        jabatan: "Anggota Senior", 
+        divisi: "Humas & P3k", 
+        tingkatan: "senior", 
+        kelas: "XI TITL 1", 
+        foto: "images/12.jpg", 
+        motto: "Usaha tidak menghianati hasil", 
+        whatsapp: "082231933025"
+    }, 
+    {
+        id: 13,
+        nama: "Mayla Nabila",
+        jabatan: "Anggota Senior",
+        divisi: "Humas & P3k",
+        tingkatan: "senior",
+        kelas: "XI TKJ 3",
+        foto: "images/13.jpg",
+        motto: "Disiplin kunci keberhasilan", 
+        whatsapp: "081234567895"
+    },
+    {
+        id: 14,
+        nama: "Aura Nayla Khairinnisa",
+        jabatan: "Anggota Senior",
+        divisi: "Administrasi",
+        tingkatan: "senior",
+        kelas: "XI MPLB 2",
+        foto: "images/14.jpg",
+        motto: "Siap mengabdi",
+        whatsapp: "081234567898"
+    }, 
+    {
+        id: 15,
+        nama: "Hejefrina Dewi Maharani",
+        jabatan: "Anggota Senior",
+        divisi: "Humas & P3k",
+        tingkatan: "senior",
+        kelas: "XI MPLB 1",
+        foto: "images/15.jpg",
+        motto: "Kerja keras, hasil cerdas",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 16,
+        nama: "Adelia Gunawan",
+        jabatan: "Anggota Senior",
+        divisi: "Penindak & Penertiban",
+        tingkatan: "senior",
+        kelas: "XI Ak 2",
+        foto: "images/16.jpg",
+        motto: "Jangan takut mencoba",
+        whatsapp: "081234567898"
+    }, 
+    {
+        id: 17,
+        nama: "Sabila Dewi",
+        jabatan: "Anggota Senior",
+        divisi: "Humas & P3k",
+        tingkatan: "senior",
+        kelas: "XI Ak 2",
+        foto: "images/17.jpg",
+        motto: "Sukses butuh proses",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 18,
+        nama: "Galang Maulana Putra",
+        jabatan: "Anggota Senior",
+        divisi: "Penindak & Penertiban",
+        tingkatan: "senior",
+        kelas: "XI TKJ 1",
+        foto: "images/18.jpg",
+        motto: "Tetap rendah hati",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 19,
+        nama: "Uswatun Nurhasanah",
+        jabatan: "Anggota Senior",
+        divisi: "Penindak & Penertiban",
+        tingkatan: "senior",
+        kelas: "XI Ak 1",
+        foto: "images/19.jpg",
+        motto: "Mimpi besar, mulai kecil",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 20,
+        nama: "Nabila Azahra",
+        jabatan: "Anggota Senior",
+        divisi: "Penindak & Penertiban",
+        tingkatan: "senior",
+        kelas: "XI MPLB 1",
+        foto: "images/20.jpg",
+        motto: "Konsisten lebih penting",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 21,
+        nama: "Nasya Naya Putri",
+        jabatan: "Anggota Senior",
+        divisi: "Administrasi",
+        tingkatan: "senior",
+        kelas: "XI MPLB 3", 
+        foto: "images/21.jpg",
+        motto: "Waktu adalah kesempatan",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 22,
+        nama: "Maharani Saskia",
+        jabatan: "Anggota Senior",
+        divisi: "Penindak & Penertiban",
+        tingkatan: "senior",
+        kelas: "XI MPLB 1",
+        foto: "images/22.jpg",
+        motto: "Tekun membawa hasil",
+    },
+    {
+        id: 23,
+        nama: "Panya",
+        jabatan: "Anggota Senior",
+        divisi: "Penindak & Penertiban",
+        tingkatan: "senior",
+        kelas: "XI MPLB 2",
+        foto: "images/23.jpg",
+        motto: "Yakin pasti bisa",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 24,
+        nama: "Rizky Ramadhan",
+        jabatan: "Anggota Senior",
+        divisi: "Penindak & Penertiban",
+        tingkatan: "senior",
+        kelas: "XI TKJ 2",
+        foto: "images/24.jpg",
+        motto: "Jadilah Inspirasi",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 25,
+        nama: "Baim Saputra",
+        jabatan: "Anggota Senior",
+        divisi: "Humas & P3k",
+        tingkatan: "senior",
+        kelas: "XI TKJ 2",
+        foto: "images/25.jpg",
+        motto: "Usaha lebih, hasil lebih",
+        whatsapp: "081234567898"
+    },
+    {
+        id: 26,
+        nama: "Marselia Sopian",
+        jabatan: "Anggota Senior",
+        divisi: "Administrasi",
+        tingkatan: "senior",
+        kelas: "XI MPLB 1",
+        foto: "images/26.jpg",
+        motto: "Berkembang setiap hari",
+        whatsapp: "081234567898"
+    },
+    
+    // Anggota Muda
+    {
+        id: 27,
+        nama: "Gea Nur Oktapiani Khorosi",
+        jabatan: "Anggota Muda",
+        divisi: "Humas & P3k",
+        tingkatan: "muda",
+        kelas: "X MPLB 1",
+        foto: "images/27.jpg",
+        motto: "Tetap Semangat",
+        whatsapp: "081234567896"
+    },
+    {
+        id: 28,
+        nama: "Nia Ramadhani",
+        jabatan: "Anggota Muda",
+        divisi: "Administrasi",
+        tingkatan: "muda",
+        kelas: "X AKL 2",
+        foto: "images/28.jpg",
+        motto: "Semangat berlatih",
+        whatsapp: "081234567897"
+    },
+    {
+        id: 29,
+        nama: "Fauzan",
+        jabatan: "Anggota Muda",
+        divisi: "Penindak & Penertiban",
+        tingkatan: "muda",
+        kelas: "X AKL 1",
+        foto: "images/29.jpg",
+        motto: "Belajar tanpa batas",
+        whatsapp: "081234567898"
+    },
+    {
         id: 30,
         nama: "Yulia Avrillina Yunus", 
         jabatan: "Anggota Muda", 
@@ -589,7 +844,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
-        kelas: "X AKL 1",
+        kelas: "X AKL 2",
         foto: "images/31.jpg",
         motto: "Bergerak atau tertinggal", 
         whatsapp: "082121933024"
@@ -600,7 +855,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
-        kelas: "X AKL 2",
+        kelas: "X TKJ 1",
         foto: "images/32.jpg",
         motto: "Jangan menunda mimpi",
         whatsapp: "081234567898"
@@ -622,7 +877,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Penindak & Penertiban",
         tingkatan: "muda",
-        kelas: "X TITL 2",
+        kelas: "X TITL 1",
         foto: "images/34.jpg",
         motto: "Tindakan lebih penting",
         whatsapp: "081234567898"
@@ -633,7 +888,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Administrasi",
         tingkatan: "muda",
-        kelas: "X AKL 1",
+        kelas: "X AKL 1", 
         foto: "images/35.jpg",
         motto: "Berpikir positif",
         whatsapp: "081234567898"
@@ -666,7 +921,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Humas & P3k",
         tingkatan: "muda",
-        kelas: "X AKL 2",
+        kelas: "X MPLB 1",
         foto: "images/38.jpg",
         motto: "Maju selangkah setiap hari",
         whatsapp: "081234567898"
@@ -677,7 +932,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Humas & P3k",
         tingkatan: "muda",
-        kelas: "X AKL 2",
+        kelas: "X TSM 1",
         foto: "images/39.jpg",
         motto: "Belajar dari kesalahan",
         whatsapp: "081234567898"
