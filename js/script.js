@@ -556,7 +556,7 @@ const anggotaData = [
         jabatan: "Anggota Muda",
         divisi: "Administrasi",
         tingkatan: "muda",
-        kelas: "X AKL 1",
+        kelas: "X MPLB 2",
         foto: "images/28.jpg",
         motto: "Semangat berlatih",
         whatsapp: "081234567897"
