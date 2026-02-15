@@ -972,8 +972,7 @@ header {
 
 .anggota-foto {
     width: 100%;
-    height: 200px;
-    overflow: hidden;
+    height: 55%;
     position: relative;
 }
 
@@ -989,11 +988,12 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     transition: var(--transition-slow);
 }
 
 .anggota-card:hover .anggota-foto img {
-    transform: scale(1.1);
+    transform: scale(1.);
 }
 
 .anggota-info {
