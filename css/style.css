@@ -1797,7 +1797,8 @@ header {
 }
 
 .person-photo {
-    height: 180px;
+    height: 55%;
+    width: 100%;
     overflow: hidden;
 }
 
